@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat";
+}
+body {
+  font-family: "Montserrat" !important;
+}
+
+*{
+  box-sizing: border-box
+}

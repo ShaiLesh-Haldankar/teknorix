@@ -1,0 +1,115 @@
+.home-page-main {
+  width: 100%;
+  padding: 3% 5%;
+  .hpm-header {
+    background-color: var(--main-color);
+    padding: 2%;
+    .main-search-wrapper {
+      width: 100%;
+      background-color: var(--bg-color);
+      display: flex;
+      margin-bottom: 20px;
+      input {
+        width: 100%;
+        padding: 10px;
+        border: 0;
+        background-color: transparent;
+      }
+    }
+    .main-dropdown-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .hover-dropdown-main {
+        width: 25%;
+        background-color: var(--bg-color);
+      }
+    }
+  }
+  .hpm-filters {
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    .filters-list {
+      width: 75%;
+      button {
+        padding: 5px 10px;
+        margin-right: 10px;
+        background-color: var(--bg-color);
+        border: 1px solid var(--border-color);
+        span {
+          color: var(--text-color);
+          font-size: 20px;
+          margin-left: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .job-list-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    .job-card {
+      width: 100%;
+      display: flex;
+      margin-bottom: 20px;
+      border: 1px solid var(--main-color);
+      padding: 2%;
+      border-radius: 20px;
+      .job-card-left {
+        width: 75%;
+        h5 {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        div {
+          display: flex;
+          align-items: center;
+          button {
+            cursor: pointer;
+            background-color: var(--main-color);
+            padding: 5px 10px;
+            border: 0;
+            font-weight: 500;
+          }
+          p {
+            margin: 0;
+            margin-right: 20px;
+            font-size: 85%;
+            display: flex;
+            align-items: center;
+          }
+          img {
+            height: 18px;
+            width: 18px;
+          }
+        }
+      }
+      .job-card-right {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button, a {
+          cursor: pointer;
+          margin: 0 10px;
+          padding: 8px 20px;
+          border-radius: 10px;
+          color: inherit;
+          text-decoration: nones;
+          &:nth-child(1) {
+            background-color: var(--main-color);
+            border: 0;
+          }
+          &:nth-child(2) {
+            background-color: transparent;
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}
