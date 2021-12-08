@@ -73,7 +73,12 @@ export default function HomePAge() {
             </button>
           ))}
         </div>
-        <button className="filter-clear-button">Clear All</button>
+        <button
+          onClick={() => updateState("filterArray", [])}
+          className="filter-clear-button"
+        >
+          Clear All
+        </button>
       </section>
       <section className="job-list-wrapper">
         {jobList.map((obj) => (
